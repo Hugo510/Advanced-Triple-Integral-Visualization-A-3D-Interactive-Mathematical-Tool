@@ -46,10 +46,10 @@ src/
 
 ### Instalación
 
-````markdown
+`````markdown
 ## 📦 Instalación
 
-````sh
+```sh
 # Clona el repositorio
 git clone <URL_DEL_REPOSITORIO>
 
@@ -58,14 +58,15 @@ cd <NOMBRE_DEL_PROYECTO>
 
 # Instala las dependencias
 npm install
-
+```
+`````
 
 ### Uso
 
-```markdown
+````markdown
 ## 🖥️ Uso
 
-```sh
+````sh
 # Inicia la aplicación en modo desarrollo
 npm run dev
 
@@ -121,3 +122,7 @@ Este proyecto está bajo la licencia [MIT](LICENSE).
 Parte del código fue generado utilizando [bolt.new](https://bolt.new/).
 ````
 ````
+
+```
+
+```
