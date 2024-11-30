@@ -44,6 +44,8 @@ src/
 └── index.css
 ```
 
+### Instalación
+
 ``markdown
 
 ## 📦 Instalación
