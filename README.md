@@ -104,14 +104,21 @@ Punto de entrada principal de la aplicación.
 
 Componente principal que renderiza el sólido y los elementos de integración.
 
-`````tsx
+```tsx
 // Renderizado del sólido basado en el tipo seleccionado
-{solidType === 'sphere' && <Sphere {...solidProps} />}
-{solidType === 'cylinder' && <Cylinder {...solidProps} />}
-{solidType === 'torus' && <Torus {...solidProps} />}
-{solidType === 'custom' && <CustomSolid {...solidProps} function={fn} />}
-````
-
+{
+  solidType === "sphere" && <Sphere {...solidProps} />;
+}
+{
+  solidType === "cylinder" && <Cylinder {...solidProps} />;
+}
+{
+  solidType === "torus" && <Torus {...solidProps} />;
+}
+{
+  solidType === "custom" && <CustomSolid {...solidProps} function={fn} />;
+}
+```
 
 ## 📜 Licencia
 
@@ -125,13 +132,15 @@ Parte del código fue generado utilizando [bolt.new](https://bolt.new/).
 
 **Consejos Adicionales**:
 
-- **Cierre de Bloques de Código**: Siempre cierra los bloques de código con ```, especialmente cuando especificas el lenguaje (por ejemplo, ```tsx```).
+- **Cierre de Bloques de Código**: Siempre cierra los bloques de código con `, especialmente cuando especificas el lenguaje (por ejemplo, `tsx```).
 - **Eliminación de Caracteres Extra**: Revisa el documento en busca de caracteres adicionales como comillas o acentos invertidos que no sean necesarios.
 - **Visualización Previa**: Utiliza la vista previa de Markdown en tu editor para verificar que todo se renderiza correctamente.
 
 ---
-`````
+
+````
 
 ```
 
 ```
+````
