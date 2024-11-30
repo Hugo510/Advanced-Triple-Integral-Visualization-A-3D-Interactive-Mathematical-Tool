@@ -44,35 +44,31 @@ src/
 └── index.css
 ```
 
-### Instalación
+### 📦 Instalación
 
-``````markdown
-## 📦 Instalación
-
-```sh
 # Clona el repositorio
+
 git clone <URL_DEL_REPOSITORIO>
 
 # Navega al directorio del proyecto
+
 cd <NOMBRE_DEL_PROYECTO>
 
 # Instala las dependencias
+
 npm install
-```
 
-### Uso
+### 🖥️ Uso
 
-`````markdown
-## 🖥️ Uso
+## Uso
 
-````sh
 # Inicia la aplicación en modo desarrollo
-npm run dev
 
+npm run dev
 
 ### Configuración
 
-```markdown
+````markdown
 ## ⚙️ Configuración
 
 Ajusta los parámetros de integración y visualización desde la interfaz de usuario:
@@ -104,7 +100,7 @@ Punto de entrada principal de la aplicación.
 
 Componente principal que renderiza el sólido y los elementos de integración.
 
-```tsx
+````tsx
 // Renderizado del sólido basado en el tipo seleccionado
 {solidType === 'sphere' && <Sphere {...solidProps} />}
 {solidType === 'cylinder' && <Cylinder {...solidProps} />}
@@ -130,8 +126,11 @@ Parte del código fue generado utilizando [bolt.new](https://bolt.new/).
 
 ---
 ````
-`````
-``````
+````
+
+```
+
+```
 
 ````
 
