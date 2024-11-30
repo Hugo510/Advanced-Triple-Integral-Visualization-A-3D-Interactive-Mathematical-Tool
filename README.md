@@ -44,7 +44,11 @@ src/
 └── index.css
 ```
 
-### 📦 Instalación
+``markdown
+
+## 📦 Instalación
+
+sh
 
 # Clona el repositorio
 
@@ -58,6 +62,10 @@ cd <NOMBRE_DEL_PROYECTO>
 
 npm install
 
+### Uso
+
+markdown
+
 ### 🖥️ Uso
 
 ## Uso
@@ -68,7 +76,7 @@ npm run dev
 
 ### Configuración
 
-````markdown
+`````markdown
 ## ⚙️ Configuración
 
 Ajusta los parámetros de integración y visualización desde la interfaz de usuario:
@@ -126,19 +134,4 @@ Parte del código fue generado utilizando [bolt.new](https://bolt.new/).
 
 ---
 ````
-````
-
-```
-
-```
-
-````
-
-```
-
-```
-````
-
-```
-
-```
+`````
