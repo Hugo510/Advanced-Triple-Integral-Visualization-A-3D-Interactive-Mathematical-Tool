@@ -65,15 +65,13 @@ Sigue estos pasos para instalar y configurar el proyecto en tu máquina local:
    npm install
    ```
 
-### Uso
+## 🖥️ Uso
 
-markdown
+Para iniciar la aplicación en modo desarrollo, ejecuta el siguiente comando:
 
-### 🖥️ Uso
-
-## Uso
-
-# Inicia la aplicación en modo desarrollo
+```sh
+npm run dev
+```
 
 npm run dev
 
