@@ -1,24 +1,58 @@
-# Logs
-logs
+# Dependencias de Node.js
+node_modules/
+
+# Directorios de compilación
+dist/
+build/
+out/
+.vite/
+
+# Archivos de caché y temporales
+*.tsbuildinfo
+*.rpt2_cache/
+*.cache/
+.vscode/
+.eslintcache
+*.tmp
+.temp/
+
+# Archivos de registro
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Configuraciones locales
+.env
+.env.local
+.env.*.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Archivos del sistema operativo
 .DS_Store
+Thumbs.db
+
+# Directorios y archivos de editores
+.idea/
+.vscode/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Salida de pruebas y cobertura
+coverage/
+*.lcov
+
+# Paquetes
+*.tgz
+
+# Archivos de bloqueo
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Otros
+firebase-debug.log
