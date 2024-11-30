@@ -11,7 +11,7 @@ Este proyecto es una aplicación interactiva para visualizar integrales triples 
 
 ## 📂 Estructura del Proyecto
 
-````bash
+```bash
 src/
 ├── App.tsx
 ├── components/
@@ -42,14 +42,14 @@ src/
 │   └── geometryWorker.ts
 ├── main.tsx
 └── index.css
-
+```
 
 ### Instalación
 
-```markdown
+````markdown
 ## 📦 Instalación
 
-```sh
+````sh
 # Clona el repositorio
 git clone <URL_DEL_REPOSITORIO>
 
@@ -119,4 +119,5 @@ Este proyecto está bajo la licencia [MIT](LICENSE).
 ### 📝 Atribución
 
 Parte del código fue generado utilizando [bolt.new](https://bolt.new/).
+````
 ````
