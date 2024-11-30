@@ -44,17 +44,15 @@ src/
 └── index.css
 ```
 
-### Instalación
-
-``markdown
-
 ## 📦 Instalación
 
-sh
+Sigue estos pasos para instalar y configurar el proyecto en tu máquina local:
 
-# Clona el repositorio
+1. **Clona el repositorio**:
 
-git clone <URL_DEL_REPOSITORIO>
+   ```sh
+   git clone <URL_DEL_REPOSITORIO>
+   ```
 
 # Navega al directorio del proyecto
 
