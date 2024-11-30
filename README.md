@@ -141,4 +141,5 @@ Parte del código fue generado utilizando [bolt.new](https://bolt.new/).
 
 ---
 
-[!TIP] Contribuye al Proyecto: Si deseas contribuir al desarrollo del proyecto, revisa las directrices de contribución y envía tus pull requests.
+> [!TIP]
+> Contribuye al Proyecto: Si deseas contribuir al desarrollo del proyecto, revisa las directrices de contribución y envía tus pull requests.
