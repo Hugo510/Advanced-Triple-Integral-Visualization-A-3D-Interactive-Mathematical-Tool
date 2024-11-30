@@ -73,11 +73,6 @@ Para iniciar la aplicación en modo desarrollo, ejecuta el siguiente comando:
 npm run dev
 ```
 
-npm run dev
-
-### Configuración
-
-`````markdown
 ## ⚙️ Configuración
 
 Ajusta los parámetros de integración y visualización desde la interfaz de usuario:
@@ -135,4 +130,7 @@ Parte del código fue generado utilizando [bolt.new](https://bolt.new/).
 
 ---
 ````
-`````
+
+```
+
+```
