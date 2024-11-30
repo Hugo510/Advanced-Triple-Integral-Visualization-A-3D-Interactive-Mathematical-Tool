@@ -54,13 +54,16 @@ Sigue estos pasos para instalar y configurar el proyecto en tu máquina local:
    git clone <URL_DEL_REPOSITORIO>
    ```
 
-# Navega al directorio del proyecto
+2. **Navega al directorio del proyecto**:
 
-cd <NOMBRE_DEL_PROYECTO>
+   ```sh
+   cd <NOMBRE_DEL_PROYECTO>
+   ```
 
-# Instala las dependencias
-
-npm install
+3. **Instala las dependencias**:
+   ```sh
+   npm install
+   ```
 
 ### Uso
 
