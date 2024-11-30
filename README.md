@@ -137,10 +137,3 @@ Parte del código fue generado utilizando [bolt.new](https://bolt.new/).
 - **Visualización Previa**: Utiliza la vista previa de Markdown en tu editor para verificar que todo se renderiza correctamente.
 
 ---
-
-````
-
-```
-
-```
-````
