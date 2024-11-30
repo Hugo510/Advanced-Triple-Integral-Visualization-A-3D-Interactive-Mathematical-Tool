@@ -110,7 +110,7 @@ Componente principal que renderiza el sólido y los elementos de integración.
 {solidType === 'cylinder' && <Cylinder {...solidProps} />}
 {solidType === 'torus' && <Torus {...solidProps} />}
 {solidType === 'custom' && <CustomSolid {...solidProps} function={fn} />}
-````tsx
+````
 
 
 ## 📜 Licencia
