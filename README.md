@@ -132,15 +132,13 @@ Parte del código fue generado utilizando [bolt.new](https://bolt.new/).
 
 **Consejos Adicionales**:
 
-- **Cierre de Bloques de Código**: Asegúrate de ajustar la resolución y la complejidad de los sólidos para mantener un rendimiento fluido, `especialmente en dispositivos con menos capacidad de procesamiento.`
-- **Validación de Entradas**: Implementa validaciones para las funciones matemáticas y los límites de integración ingresados por el usuario para evitar errores y comportamientos inesperados.
+- **Explora los Controles**: Tómate el tiempo para familiarizarte con los controles de la interfaz de usuario. Ajustar los parámetros puede ayudarte a obtener una mejor visualización de los sólidos.
+- **Prueba Diferentes Funciones**: No dudes en experimentar con diferentes funciones matemáticas para ver cómo afectan la forma y el volumen de los sólidos.
 - **Documentación de Código**: Comenta tu código de manera clara y concisa para facilitar la comprensión y el mantenimiento del proyecto por parte de otros desarrolladores.
-- **Pruebas Unitarias**: Escribe pruebas unitarias para los componentes clave y las funciones críticas del proyecto para asegurar su correcto funcionamiento y facilitar la detección de errores.
-- **Actualización de Dependencias**: Mantén las dependencias del proyecto actualizadas para beneficiarte de las últimas mejoras y correcciones de seguridad.
-- **Uso de Herramientas de Desarrollo**: Utiliza herramientas como ESLint y Prettier para mantener un código limpio y consistente.
-- **Accesibilidad**: Considera la accesibilidad en el diseño de la interfaz de usuario para que la aplicación sea usable por personas con discapacidades.
-- **Feedback de Usuarios**: Recoge y analiza el feedback de los usuarios para identificar áreas de mejora y nuevas funcionalidades que podrían ser añadidas.
-- **Despliegue en Producción**: Si planeas desplegar la aplicación en producción, asegúrate de configurar correctamente el entorno de producción y realizar pruebas exhaustivas.
-- **Seguridad**: Implementa medidas de seguridad para proteger la aplicación y los datos de los usuarios, especialmente si planeas permitir la entrada de funciones matemáticas personalizadas.
+- **Optimización de Rendimiento**: Si experimentas problemas de rendimiento, `intenta reducir la resolución o simplificar las funciones matemáticas utilizadas.`
+- **Consulta la Documentación**: Si tienes dudas sobre cómo utilizar alguna funcionalidad, consulta la documentación de las tecnologías utilizadas, como React, Three.js y Math.js.
+- **Comparte tu Experiencia**: Si encuentras algo interesante o tienes sugerencias para mejorar el proyecto, no dudes en compartir tu experiencia y feedback.
 
 ---
+
+[!TIP] Contribuye al Proyecto: Si deseas contribuir al desarrollo del proyecto, revisa las directrices de contribución y envía tus pull requests.
