@@ -104,12 +104,13 @@ Punto de entrada principal de la aplicación.
 
 Componente principal que renderiza el sólido y los elementos de integración.
 
-````tsx
+`````tsx
 // Renderizado del sólido basado en el tipo seleccionado
 {solidType === 'sphere' && <Sphere {...solidProps} />}
 {solidType === 'cylinder' && <Cylinder {...solidProps} />}
 {solidType === 'torus' && <Torus {...solidProps} />}
 {solidType === 'custom' && <CustomSolid {...solidProps} function={fn} />}
+````tsx
 
 
 ## 📜 Licencia
@@ -129,7 +130,7 @@ Parte del código fue generado utilizando [bolt.new](https://bolt.new/).
 - **Visualización Previa**: Utiliza la vista previa de Markdown en tu editor para verificar que todo se renderiza correctamente.
 
 ---
-````
+`````
 
 ```
 
