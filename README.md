@@ -1,0 +1,122 @@
+# 🧮 Visualizador de Integrales Triples
+
+Este proyecto es una aplicación interactiva para visualizar integrales triples y sólidos en tres dimensiones utilizando **React**, **Three.js** y **TypeScript**.
+
+## 🚀 Características
+
+- **Visualización 3D**: Explora sólidos como esferas, cilindros, toros y funciones personalizadas.
+- **Interfaz Interactiva**: Ajusta parámetros como límites de integración, resolución y velocidad de animación en tiempo real.
+- **Animaciones Dinámicas**: Observa el proceso de integración a través de animaciones fluidas.
+- **Funciones Personalizadas**: Ingresa funciones matemáticas para crear sólidos personalizados.
+
+## 📂 Estructura del Proyecto
+
+````bash
+src/
+├── App.tsx
+├── components/
+│   ├── Controls.tsx
+│   ├── Scene.tsx
+│   ├── TripleIntegral.tsx
+│   ├── animation/
+│   │   ├── AnimationControls.tsx
+│   │   ├── DifferentialElement.tsx
+│   │   └── IntegrationLayer.tsx
+│   ├── solids/
+│   │   ├── CustomSolid.tsx
+│   │   ├── Cylinder.tsx
+│   │   ├── Sphere.tsx
+│   │   └── Torus.tsx
+│   └── LoadingSpinner.tsx
+├── hooks/
+│   └── useGeometryWorker.ts
+├── store/
+│   ├── useAnimationStore.ts
+│   └── useIntegrationStore.ts
+├── types/
+│   ├── animation.ts
+│   └── math.ts
+├── utils/
+│   └── mathParser.ts
+├── workers/
+│   └── geometryWorker.ts
+├── main.tsx
+└── index.css
+
+
+### Instalación
+
+```markdown
+## 📦 Instalación
+
+```sh
+# Clona el repositorio
+git clone <URL_DEL_REPOSITORIO>
+
+# Navega al directorio del proyecto
+cd <NOMBRE_DEL_PROYECTO>
+
+# Instala las dependencias
+npm install
+
+
+### Uso
+
+```markdown
+## 🖥️ Uso
+
+```sh
+# Inicia la aplicación en modo desarrollo
+npm run dev
+
+
+### Configuración
+
+```markdown
+## ⚙️ Configuración
+
+Ajusta los parámetros de integración y visualización desde la interfaz de usuario:
+
+- **Tipo de sólido**: Esfera, Cilindro, Toro o Función Personalizada.
+- **Función Matemática**: Ingresa tu propia función cuando seleccionas "Función Personalizada".
+- **Límites de Integración**: Modifica los límites para los ejes **X**, **Y** y **Z**.
+- **Resolución**: Controla la calidad de la visualización ajustando la resolución.
+- **Velocidad de Animación**: Ajusta la velocidad de la animación de integración.
+- **Transparencia**: Controla la opacidad del sólido para mejorar la visualización de los elementos diferenciales.
+
+## 🛠️ Tecnologías Utilizadas
+
+- [React](https://reactjs.org/)
+- [Three.js](https://threejs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Zustand](https://github.com/pmndrs/zustand)
+- [Math.js](https://mathjs.org/)
+
+## 📁 Componentes Clave
+
+### [`App.tsx`](src/App.tsx)
+
+Punto de entrada principal de la aplicación.
+
+### [`TripleIntegral`](src/components/TripleIntegral.tsx)
+
+Componente principal que renderiza el sólido y los elementos de integración.
+
+```tsx
+// Renderizado del sólido basado en el tipo seleccionado
+{solidType === 'sphere' && <Sphere {...solidProps} />}
+{solidType === 'cylinder' && <Cylinder {...solidProps} />}
+{solidType === 'torus' && <Torus {...solidProps} />}
+{solidType === 'custom' && <CustomSolid {...solidProps} function={fn} />}
+
+
+## 📜 Licencia
+
+Este proyecto está bajo la licencia [MIT](LICENSE).
+
+### 📝 Atribución
+
+Parte del código fue generado utilizando [bolt.new](https://bolt.new/).
+````
