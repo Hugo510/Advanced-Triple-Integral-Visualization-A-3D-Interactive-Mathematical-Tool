@@ -132,8 +132,15 @@ Parte del código fue generado utilizando [bolt.new](https://bolt.new/).
 
 **Consejos Adicionales**:
 
-- **Cierre de Bloques de Código**: Siempre cierra los bloques de código con `, especialmente cuando especificas el lenguaje (por ejemplo, `tsx```).
-- **Eliminación de Caracteres Extra**: Revisa el documento en busca de caracteres adicionales como comillas o acentos invertidos que no sean necesarios.
-- **Visualización Previa**: Utiliza la vista previa de Markdown en tu editor para verificar que todo se renderiza correctamente.
+- **Cierre de Bloques de Código**: Asegúrate de ajustar la resolución y la complejidad de los sólidos para mantener un rendimiento fluido, `especialmente en dispositivos con menos capacidad de procesamiento.`
+- **Validación de Entradas**: Implementa validaciones para las funciones matemáticas y los límites de integración ingresados por el usuario para evitar errores y comportamientos inesperados.
+- **Documentación de Código**: Comenta tu código de manera clara y concisa para facilitar la comprensión y el mantenimiento del proyecto por parte de otros desarrolladores.
+- **Pruebas Unitarias**: Escribe pruebas unitarias para los componentes clave y las funciones críticas del proyecto para asegurar su correcto funcionamiento y facilitar la detección de errores.
+- **Actualización de Dependencias**: Mantén las dependencias del proyecto actualizadas para beneficiarte de las últimas mejoras y correcciones de seguridad.
+- **Uso de Herramientas de Desarrollo**: Utiliza herramientas como ESLint y Prettier para mantener un código limpio y consistente.
+- **Accesibilidad**: Considera la accesibilidad en el diseño de la interfaz de usuario para que la aplicación sea usable por personas con discapacidades.
+- **Feedback de Usuarios**: Recoge y analiza el feedback de los usuarios para identificar áreas de mejora y nuevas funcionalidades que podrían ser añadidas.
+- **Despliegue en Producción**: Si planeas desplegar la aplicación en producción, asegúrate de configurar correctamente el entorno de producción y realizar pruebas exhaustivas.
+- **Seguridad**: Implementa medidas de seguridad para proteger la aplicación y los datos de los usuarios, especialmente si planeas permitir la entrada de funciones matemáticas personalizadas.
 
 ---
